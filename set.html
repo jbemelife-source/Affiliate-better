@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 450px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="url"],
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            opacity: .9;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Site Settings</h2>
+
+    <label>Change Username</label>
+    <input type="text" placeholder="Enter new username">
+
+    <label>Change Email</label>
+    <input type="email" placeholder="Enter new email">
+
+    <label>Change Password</label>
+    <input type="password" placeholder="Enter new password">
+
+    <label>Website Logo</label>
+    <input type="file">
+
+    <label>Your Affiliate Link</label>
+    <input type="url" placeholder="https://example.com/mylink">
+
+    <button>Save Changes</button>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-weight: 700;
+    
+}
+header{
+    text-align: center;
+    font-family: monospace;
+    position: sticky;
+}
+header h2{
+    background: green;
+    color: white;
+    padding: 32px 40px;
+}
+nav{
+    text-align: center;
+    background: #1C592F;
+    padding: 10px 20px;
+    position: sticky;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+img{
+    width : 100%;
+    height: 30%;
+    
+}
+
+main{
+  width: 70%; /* Set width to a percentage for responsiveness */
+  max-width: 600px; /* Set a max-width for larger screens */
+  background-color: rgba(240, 240, 240, 0.8); /* Added slight transparency to the box */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Softer shadow */
+  border-radius: 10px; /* Rounded corners */
+  padding: 35px;
+  margin: 20px auto; /* Center the box and add margin for spacing */
+}
+h1{
+color: #1C592F;
+text-align: center;
+}
+p{
+    text-align: center;
+    line-height: 2.0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    grid-row: 2;
+    text-align: center;
+}
+a.btn {
+    padding: 10px 15px;
+    margin-left: 40%;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #126F1C;
+}
+
+    .signup-container {
+            background: #fff;
+            padding: 25px;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        .signup-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 24px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 6px;
+            color: #555;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .input-group input {
+            width: 70%;
+            margin-left: 10%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: .3s;
+        }
+
+        .input-group input:focus {
+            border-color: green;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 128, 0, 0.4);
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 14px;
+            background: green;
+            color: #fff;
+            font-size: 17px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: .3s;
+            font-weight: bold;
+        }
+
+        .submit-btn:hover {
+            background: #0e760e;
+        }
+
+        .have-account {
+            text-align: center;
+            margin-top: 15px;
+            color: #555;
+        }
+
+        .have-account a {
+            color: green;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+
+        /* MOBILE FIRST DESIGN */
+        .item-card {
+            background: #fff;
+            width: 100%;
+            max-width: 380px;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .item-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .content {
+            padding: 15px;
+        }
+
+        .content h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #222;
+        }
+
+        .price {
+            margin: 8px 0 15px;
+            font-size: 18px;
+            color: #111;
+            font-weight: bold;
+        }
+
+        .btn-box {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            padding: 14px;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            color: white;
+            font-weight: bold;
+            background: green;
+            transition: .3s;
+        }
+
+        .btn:hover {
+            background: #0d750d;
+        }
+
+ /* Hidden details section */
+ .details {
+     display: none;
+     background: #f9f9f9;
+     text-align: center;
+     padding: 10px 15px;
+     margin-top: 12px;
+     border-radius: 8px;
+     border: 1px solid #ddd;
+     color: #444;
+     font-size: 15px;
+ }
+ .details ul li{
+     list-style: none;
+ }
+        /* TABLET / DESKTOP — Optional */
+        @media (min-width: 700px) {
+            .item-card {
+                max-width: 450px;
+                
+            }
+        }
+        .footer {
+  background-color: #196F22; /* Tailwind’s green-500; use any shade you wish */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative; /* Or fixed/bottom if desired */
+  width: 100%;
+}
